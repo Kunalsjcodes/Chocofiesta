@@ -1,0 +1,352 @@
+<html>
+    <head>
+        <link rel="shortcut icon" href="C:\Users\Kunal Sharma\Desktop\Chocofiesta\Transparent\favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Chocofiesta</title>
+        <style>
+            .nav{
+                float: left;
+                margin: 0;
+                overflow:hidden;
+                text-align: center;
+                padding-top: 18px;
+            }
+            .nav_1{
+                float: left;
+                margin: 0;
+                overflow:hidden;
+                text-align: center;
+                padding-left: 175px;
+                padding-top: 18px;
+            }
+            nav ul{
+               margin: 0;
+               padding: 0;
+            }
+            nav > ul > li > a{
+                color: rgb(49, 31, 4);
+                display: block;
+                padding:1em;
+                text-decoration: none;
+            }
+            nav > ul > li > a:hover{
+                color: darkcyan;
+            }
+            .logo{
+                float: left;
+                position: relative;
+                margin: 0px 15px 0px 20px;
+         
+            }
+            .nav_logo{
+                float: right;
+                position: relative;
+                padding-top: 30px;
+                margin: 0px 20px 0px 0px;
+            }
+            .coverimg{
+                padding-top: 140px;
+                padding-bottom: 165px;
+                background: -webkit-linear-gradient(rgba(4, 5, 14, 0.6), rgba(20, 10, 10, 0.6)), url("C:/Users/Kunal Sharma/Desktop/Chocofiesta/img/CoverImg6.jpg");
+                background-size: cover;
+                background-position: center center;
+                background-color: black;
+            }
+            .covertext1{
+                z-index: 17; 
+                font-family: Rochester; 
+                visibility: visible; 
+                text-align: center; 
+                line-height: 40px; 
+                font-weight: 600; 
+                font-size: 40px; 
+                letter-spacing: 1px;
+                border-color: rgb(119, 119, 119); 
+                border-style: none; 
+                margin: 0px; 
+                border-radius: 0px;
+                padding-top: 20px;
+                height: auto; 
+                width: auto; 
+                color: white;
+            }
+            .covertext2{
+                z-index: 18; 
+                visibility: visible; 
+                text-align: center; 
+                line-height: 13px; 
+                font-weight: 400; 
+                font-size: 15px; 
+                border-color: rgb(119, 119, 119); 
+                border-style: none; 
+                margin: 2px; 
+                letter-spacing: 0.5px;
+                border-radius: 0px; 
+                padding-bottom: 50px; 
+                height: auto; 
+                width: auto; 
+                color: white;
+            }
+            .story_head{
+                font-size: 50px;
+                line-height: 50px;
+                text-align: center;
+                font-family: Rochester;
+                color: #3a2b2b;
+                padding-left: 10px;
+            }
+            .img1{
+                margin: 40px 30px 35px 40px;
+            }
+            
+            .story_text{
+                font-size: 17px;
+                padding-right: 15px;
+                padding-left: 30px;
+                letter-spacing: 0.5px;
+                color: #808080;
+            }
+            .story_tab{
+                display: inline-block; 
+                margin-left: 10px; 
+            }
+            .button_1{
+                color: white;
+                padding: 19px 35px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-weight: 400; 
+                font-size: 12px;
+                font-family: "Playfair Display";
+                margin: 5px 5px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+                border-radius: 60px;
+                background-color: rgb(58, 43, 43);
+                color: white; 
+                border: 1px solid rgb(58, 43, 43);
+            }
+            .button_1:hover{
+                background-color: black;
+                border:1px solid black;
+                color: white;
+            }
+            .img2{
+                margin: 60px 10px 10px 10px;
+            }
+            .historycover{
+                background-image: url("C:/Users/Kunal Sharma/Desktop/Chocofiesta/img/About_us_History_cover.png");
+                background-color: wheat;
+                padding-bottom: 80px;
+            }
+            .history_head{
+                font-size: 50px;
+                line-height: 50px;
+                text-align: center;
+                font-family: Rochester;
+                color: #3a2b2b;
+                padding-top: 50px;
+                padding-bottom: 10px;
+            }
+            .historytext{
+                text-align: center;
+                font-size: 17px;
+                color: #858484;
+                padding-bottom: 20px;
+            }
+            .historynumber{
+                font-size: xx-large;
+                font-family: Rochester;
+                text-align: center;
+                border-radius: 100px;
+                background-color: #808080;
+                color: black;
+            }
+            .history_title{
+                font-family:Rochester;
+                font-weight:400;
+                font-size: 27px;
+                padding: 30px 20px 0px 20px;
+                color: #3a2b2b;
+                font-style:normal
+            }
+            .history_description{
+                font-size: 16px;
+                padding: 0px 20px 40px 20px;
+                letter-spacing: 0.5px;
+                color: #808080;
+            }
+            .Ques_head{
+                text-align: center;
+                font-family:Rochester;
+                font-weight:400;
+                font-size: 27px;
+                padding: 20px 20px 10px 20px;
+                color: #3a2b2b;
+                font-style:normal
+            }
+            .Ques_text{
+                font-size: 16px;
+                padding: 10px 20px 60px 20px;
+                letter-spacing: 0.5px;
+                color: #808080;
+            }
+            .reviews{
+                padding-top: 110px;
+                padding-bottom: 110px;
+                background: url("C:/Users/Kunal Sharma/Desktop/Chocofiesta/img/CoverImg7.jpg");
+                background-size: cover;
+                background-position: center center;
+            }
+            .footer{
+                background-color: #3a2b2b;
+                padding-bottom: 35px;
+            }
+            .foot_HR{
+                padding-top: 1px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <section>
+            <nav>
+                <ul>
+                    <img class="logo" src="C:\Users\Kunal Sharma\Desktop\Chocofiesta\Transparent\transparent  (4).png" height="17%" width="17%" alt="logo">
+                    <li class="nav_1"><a href="C:\Users\Kunal Sharma\Desktop\Chocofiesta\Chocofiesta.html">Home</a></li>
+                    <li class="nav"><a href="#">About Us</a></li>
+                    <li class="nav"><a href="#">Gift</a></li>
+                    <li class="nav"><a href="#">Shop</a></li>
+                    <li class="nav"><a href="#">Blog</a></li>
+                    <li class="nav"><a href="#">Contact Us</a></li>
+                    <p class=nav_logo><a href="#"><i class="fa fa-search" width="18px" height="18px" style="color:#3a2b2b;"></i></a></p>
+                    <p class=nav_logo><a href="#"><i class="fa fa-heart" width="18px" height="18px" style="color:#3a2b2b;"></i></a></p>
+                    <p class=nav_logo><a href="#"><i class="fa fa-shopping-bag" width="18px" height="18px" style="color:#3a2b2b;"></i></a></p>
+                </ul>
+            </nav>
+            
+        </section>
+        <br><br><br><br><hr>
+
+        <section class="coverimg">
+            <p class="covertext1"><br>About US</p><br>
+            <p class="covertext2">UVW<br>XYZ</p>
+        </section>
+
+        <section>
+            <table>
+                <tr>                    
+                    <td width="45%" style="text-align:center;"> 
+                        <h2 class="story_head">Our Story</h2>
+                        <p class="story_text">
+                            Homemade chocolates have always tempted me for its taste and pretty packing style and wished to learn its manufacturing process as I believed making it on my own would surely be an exciting task and I was not wrong.</p>
+                        <p class="story_text">
+                            I had a lot of time to invest in any such fruitful activity due to the lockdown so I surfed for various videos of making chocolates at home and my eyes stucked on an online chocolate making classes on instagram which motivated me to learn making chocolates and setup a business for the same. The experiment on various types of chocolates went on few days and a good response from my family helped to make up my mind to start with our instagram page for selling chocolates.
+                            <br>
+                        </p>
+                        <span class="story_tab"></span>
+                        <button class="button_1">READ ALL</button><br>
+                    </td>
+
+                    <td width="55%">
+                        <img src="C:\Users\Kunal Sharma\Desktop\Chocofiesta\img\About_us_Story.png" class="img1" align="right" width="95%" height="80%">
+                    </td>
+
+                </tr>
+            </table>
+        </section>
+        
+        <section class="historycover">
+            <h2 class="history_head">Our History</h2>
+            <table width="100%" cellspacing="10px">
+                <tr>
+                    <td width="46%">
+                        <p align="right" class="history_title">Beginning</p>
+                        <p align="right" class="history_description">All this began out of excitement and craze of making chocolates on my own. My interest in cooking and baking made me search How To Make Chocolates at Home on You Tube and I tried one of those recepie but it didn't turned out to be good which disheartened me. </p>
+                    </td>
+                    <td width="8%" class="historynumber">1</td>
+                    <td width="46%"></td>
+                </tr>
+                <tr>
+                    <td width="46%"></td>
+                    <td width="8%" class="historynumber">2</td>
+                    <td width="46%">
+                        <p align="left" class="history_title"> Register for classes </p>
+                        <p align="left" class="history_description">  I went on to search for some online course of chocolate making and found one of the best online classes on Instagram and I was so much attracted by their presentation and the types of courses they offered and instantly applied for the one.  </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="46%">
+                        <p align="right" class="history_title"> The first attempt  </p>
+                        <p align="right" class="history_description">  Initially, I applied for only 3 types of chocolates and tried them. These turned out to be perfect which further motivated me to go on for more and gradually I learned 31 varieties of chocolates from the online course.<br>I tried most of them and was appreciated by everyone. </p>
+                    </td>
+                    <td width="8%" class="historynumber">3</td>
+                    <td width="46%"></td>
+                </tr>
+                <tr>
+                    <td width="46%"></td>
+                    <td width="8%" class="historynumber">4</td>
+                    <td width="46%">
+                        <p align="left" class="history_title">  Planning for the insta page </p>
+                        <p align="left" class="history_description"> I gave a deep thought to this and finally decided upon making a page named @chocofiesta_09 and engaged my friend to design the logo and the finalised it along with a tagline. All this was accomplished within a week, and since then the journey of ChocoFiesta began. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="46%">
+                        <p align="right" class="history_title">  Initial orders </p>
+                        <p align="right" class="history_description">  I got my first 3 orders from my very close friends and their positive reviews and encouragement helped me make more customers. In a span of just 2 weeks, @chocofiesta_09 completed its 6 orders and still counting. </p>
+                    </td>
+                    <td width="8%" class="historynumber">5</td>
+                    <td width="46%"></td>
+                </tr>
+            </table>
+        </section>
+
+
+        <section>
+            <table>
+                <tr width="33.33%">
+                    <td><img src="C:\Users\Kunal Sharma\Desktop\Chocofiesta\img\About_us_Who.jpg" class="img2" align="center" width="95%" height="50%"></td>
+                    <td><img src="C:\Users\Kunal Sharma\Desktop\Chocofiesta\img\About_us_What.jpg" class="img2" align="center" width="95%" height="50%"></td>
+                    <td><img src="C:\Users\Kunal Sharma\Desktop\Chocofiesta\img\About_us_Why.jpg" class="img2" align="center" width="95%" height="50%"></td>
+                </tr>
+
+                <tr width="33.33%">
+                    <td><p class="Ques_head">Who we are ?</p></td>
+                    <td><p class="Ques_head">What we do ?</p></td>
+                    <td><p class="Ques_head">Why choose us ?</p></td>
+                </tr>
+
+                <tr width="33.33%">
+                    <td><p class="Ques_text" style="text-align: center">Use a past defeat as a motivator. Remind yourself you have nowhere to go except up as you have already been at the bottom.</p></td>
+                    <td><p class="Ques_text" style="text-align: center">Use a past defeat as a motivator. Remind yourself you have nowhere to go except up as you have already been at the bottom.</p></td>
+                    <td><p class="Ques_text" style="text-align: center">Use a past defeat as a motivator. Remind yourself you have nowhere to go except up as you have already been at the bottom.</p></td>
+                </tr>
+            </table>
+            <hr>
+        </section>
+
+        <section class="reviews">
+            <p class="covertext1" style="color:#3a2b2b"><br>Choco Review</p><br>
+            <p class="covertext2" style="color: black">UVW<br>XYZ</p>
+        </section>
+
+        <section class="footer"> 
+            <hr class="foot_HR">
+            <br><br>
+            <div style="padding-left:45%;">
+                <a href="mailto:kunal.sj01@gmail.com" target="_blank"><i class="fa fa-google" width="18px" height="18px" style="color:white; padding-right: 8px;"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+918952972792" target="_blank"><i class="fa fa-whatsapp" width="18px" height="18px" style="color:white; padding-right: 8px;"></i></a>
+                <a href="https://www.linkedin.com/in/kunal-sharma-7b0242136/" target="_blank"><i class="fa fa-linkedin" width="18px" height="18px" style="color:white; padding-right: 8px;"></i></a>
+                <a href="http://www.instagram.com/chocofiesta_09" target="_blank"><i class="fa fa-instagram" width="18px" height="18px" style="color:white; padding-right: 8px;"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100009461494163" target="_blank"><i class="fa fa-facebook" width="18px" height="18px" style="color:white; padding-right: 8px;"></i></a>          
+            </div>
+            <br>
+            <p style="text-align: center; color: white;">&copy; Copyright 2020, ChocoFiesta. All Rights Reserved.&nbsp;&nbsp;|&nbsp;&nbsp;Designed by:- Kunal Sharma</p>
+        </section>
+
+    </body>
+</html>
+
